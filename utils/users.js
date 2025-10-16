@@ -5,5 +5,6 @@ export function createUser(name, email) {
     name,
     email,
     createdAt: new Date().toISOString(),
-  }
+  };
 }
+
